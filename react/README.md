@@ -1,17 +1,17 @@
 #### Objectives
 
-1. Create two screens using `react-router-dom`. (List of rooms and furnitures)
-2. Use Tailwind CSS for styling or any thrird party utils.
-3. Implement a loading state for each screen.
-4. Create links to navigate from the home screen to the room detail page.
+1. Create two screens using `react-router-dom`. (List of rooms and furnitures) done
+2. Use Tailwind CSS for styling or any thrird party utils. done sass
+3. Implement a loading state for each screen. done
+4. Create links to navigate from the home screen to the room detail page. done
 5. Display a list of furniture items in the room detail page.
 6. Implement search functionality for furniture by weight and price.
 
 #### Notes
 
-1. Use **USD** currency formatting 
+1. Use **USD** currency formatting
 2. Use the react-icons library for the arrow icon
-3. react-query is preferred for async operations, but not mandatory 
+3. react-query is preferred for async operations, but not mandatory
 
 #### Steps
 

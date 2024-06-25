@@ -1,0 +1,77 @@
+* 
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+body
+  font-family: Arial, sans-serif
+
+.loading-animation
+  display: flex
+  flex-direction: column   
+  justify-content: center
+  align-items: center
+  height: 50vh             
+  width: 100%
+  margin-top: 20px
+
+  .bar
+    width: 50px
+    height: 15px
+    background-color: #333
+    margin: 10px 0         
+    animation: pulse 2s infinite alternate
+
+.room-detail
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  .filters
+    margin-bottom: 20px
+
+    label
+      display: block
+      margin-bottom: 10px
+      font-weight: bold
+
+    input[type="text"]
+      padding: 10px
+      font-size: 14px
+      border: 2px solid #ccc
+      border-radius: 20px
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+      transition: border-color 0.3s ease
+
+      &:focus
+        outline: none
+        border-color: #333
+
+  .furniture-table
+    width: 75%
+    max-width: 800px
+    margin-top: 20px
+    border-collapse: collapse
+    border: 1px solid #ccc
+    border-radius: 8px
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+
+    @media (max-width: 1024px)
+      width: 90%
+
+    th, td
+      padding: 12px 16px
+      text-align: left
+      border-bottom: 1px solid #ccc
+
+    th
+      background-color: #f0f0f0
+
+    tr:last-child td
+      border-bottom: none
+
+@keyframes pulse
+  to
+    transform: scale(1.2)

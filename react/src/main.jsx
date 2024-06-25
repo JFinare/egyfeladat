@@ -4,6 +4,8 @@ import App from "./App.jsx";
 import { initFakeApi } from "./mirage.js";
 import "./index.css";
 
+import "./main.sass";
+
 // don't touch this line
 initFakeApi();
 
