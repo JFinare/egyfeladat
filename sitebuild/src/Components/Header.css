@@ -1,0 +1,15 @@
+.header {
+  background-color: #c0cc15;
+  color: rgb(41, 5, 5);
+  text-align: center;
+  padding: 1rem;
+}
+
+.header__title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.header__subtitle {
+  font-size: 1.2rem;
+}
